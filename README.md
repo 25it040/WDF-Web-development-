@@ -1,144 +1,214 @@
-Web Development Practicals
-Practical Portfolio | HTML • CSS • JavaScript • PHP • MySQL
-Author: Dev Kaneriya
-Repository: WDF-Web-development-
-About the Project
-This repository contains a collection of Web Development practicals created to practise and demonstrate core frontend and backend web technologies. The practicals progress from interactive webpages and forms to database-driven applications, authentication, CRUD operations, AJAX-based updates, and admin features.
-The code is organized into individual practical folders so that each exercise can be explored and run independently.
-Practical Index
-Practical	Project / Topic	Technologies and Concepts
-Practical 4	Gujarat Tourism Website	HTML, CSS, JavaScript, page layout, tourism content and images
-Practical 5	Student Registration Form	HTML forms, CSS styling and JavaScript
-Practical 6	Event Explorer	HTML, CSS, JavaScript, JSON event data and modular JavaScript files
-Practical 7	Student Registration	PHP form processing, registration records and CSV data
-Practical 8	StudentHub Registration	PHP and MySQL database connectivity
-Practical 9	User Registration	PHP registration form and database connection
-Practical 10	Secure Login System	PHP authentication, sessions and role-based dashboards
-Practical 11	Student Management System	PHP/MySQL CRUD operations, editing, deletion and CSV export
-Practical 12	Event Management System	PHP/MySQL event management, admin login and session handling
-Practical 13	AJAX Student Management	PHP API endpoints, AJAX-style requests and CRUD operations
-Practical 14	Admin Dashboard and Audit Logs	PHP authentication, user management, status controls and audit logs
+[README.md](https://github.com/user-attachments/files/34082388/README.md)
+<div align="center">
 
+# 🌐 Web Development Practicals
 
-Folder names follow the practical files in this repository. Check each practical's source files and SQL script for its exact implementation and database requirements.
+### A Practical Portfolio of Frontend & Backend Web Technologies
 
-Technology Stack
-- HTML5 — page structure and forms
-- CSS3 — layout, styling and responsive presentation where implemented
-- JavaScript — client-side interaction and dynamic behaviour
-- JSON — structured event data
-- PHP — server-side processing, authentication and application logic
-- MySQL — persistent data storage for database-backed practicals
-- Git and GitHub — source control and project hosting
-Repository Flowchart
-The diagram below gives a quick visual overview of how the practicals are grouped, from frontend fundamentals to PHP/MySQL applications.
+**A structured collection of academic practicals covering modern web development concepts, from interactive webpages to database-driven applications.**
+
+<br>
+
+![HTML5](https://img.shields.io/badge/HTML5-Structure-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-Styling-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-Interactivity-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![PHP](https://img.shields.io/badge/PHP-Backend-777BB4?style=for-the-badge&logo=php&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-Database-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+
+<br>
+
+**AUTHOR · DEV KANERIYA**
+
+</div>
+
+---
+
+## 📌 About the Project
+
+This repository contains a collection of **Web Development practicals** created to practise and demonstrate essential frontend and backend concepts. The work progresses from HTML-based pages and interactive forms to PHP applications, database operations, authentication, and administrative features.
+
+Each practical is maintained in its own folder to make the source code easier to navigate, run, understand, and present during academic evaluation.
+
+> **Project focus:** Learn by building — structure pages, style interfaces, add interactivity, process data, and connect applications to databases.
+
+---
+
+## ✨ Project Highlights
+
+| Feature | Description |
+|:--|:--|
+| 🧱 **Frontend Development** | Build web pages using HTML and CSS. |
+| ⚡ **JavaScript Interactivity** | Add client-side behaviour, form interactions, and dynamic content. |
+| 🐘 **PHP Backend** | Process form submissions and implement server-side application logic. |
+| 🗄️ **Database Integration** | Connect PHP applications to MySQL where required. |
+| 🔐 **Authentication** | Practise login flows, sessions, and role-based features in relevant practicals. |
+| 🔄 **CRUD Operations** | Create, read, update, and delete records in database-backed exercises. |
+| 📡 **AJAX Concepts** | Exchange data with backend endpoints without relying only on full-page form submissions. |
+| 🧰 **Version Control** | Organize and publish practical work using Git and GitHub. |
+
+---
+
+## 🗂️ Practical Index
+
+| Practical | Project / Topic | Main Concepts |
+|:--:|:--|:--|
+| **04** | 🌄 Gujarat Tourism Website | HTML, CSS, JavaScript, page layout and tourism content |
+| **05** | 📝 Student Registration Form | HTML forms, CSS styling and JavaScript |
+| **06** | 🎟️ Event Explorer | JavaScript, JSON event data and modular scripts |
+| **07** | 📋 Student Registration | PHP form processing and registration records |
+| **08** | 🗃️ StudentHub Registration | PHP and MySQL connectivity |
+| **09** | 👤 User Registration | PHP registration form and database connection |
+| **10** | 🔐 Secure Login System | PHP authentication, sessions and role-based dashboards |
+| **11** | 🎓 Student Management System | PHP/MySQL CRUD operations and CSV export |
+| **12** | 📅 Event Management System | PHP/MySQL event management and admin sessions |
+| **13** | 🔄 AJAX Student Management | PHP endpoints, AJAX-style requests and CRUD |
+| **14** | 🛠️ Admin Dashboard & Audit Logs | User management, status controls and audit logs |
+
+<sub>Practical titles and technologies are summarized from the project folder overview. Check each practical's files for its exact features and setup requirements.</sub>
+
+---
+
+## 🧭 Repository Flowchart
+
+The diagram below gives a high-level view of how the practicals progress from frontend fundamentals to backend and database-driven applications.
+
 ```mermaid
 flowchart TD
-    A[WDF Web Development Practicals
-Author: Dev Kaneriya]
+    A["🌐 Web Development Practicals<br/>Dev Kaneriya"] --> B["🎨 Frontend Practicals"]
+    A --> C["⚙️ Backend Practicals"]
 
-    A --> B[Frontend Practicals]
-    A --> C[Backend and Database Practicals]
+    B --> D["Practical 4<br/>Gujarat Tourism"]
+    B --> E["Practical 5<br/>Student Registration Form"]
+    B --> F["Practical 6<br/>Event Explorer"]
 
-    B --> D[Practical 4
-Gujarat Tourism Website]
-    B --> E[Practical 5
-Student Registration Form]
-    B --> F[Practical 6
-Event Explorer]
+    C --> G["Practicals 7–9<br/>PHP Forms & Registration"]
+    C --> H["Practicals 10–12<br/>Login, Student & Event Management"]
+    C --> I["Practical 13<br/>AJAX Student Management"]
+    C --> J["Practical 14<br/>Admin Dashboard & Audit Logs"]
 
-    D --> G[HTML + CSS + JavaScript
-Images and webpage layout]
-    E --> H[HTML + CSS + JavaScript
-Form interaction]
-    F --> I[HTML + CSS + JavaScript + JSON
-Modular JavaScript]
+    D --> K["🧱 HTML + CSS"]
+    E --> L["⚡ JavaScript"]
+    F --> L
+    G --> M["🐘 PHP"]
+    H --> M
+    I --> M
+    J --> M
+    M --> N["🗄️ MySQL<br/>where configured"]
 
-    C --> J[Practical 7
-Registration with CSV records]
-    C --> K[Practical 8-9
-PHP Registration and Database Connection]
-    C --> L[Practical 10
-Login and Role-based Dashboards]
-    C --> M[Practical 11-12
-Management and CRUD Operations]
-    C --> N[Practical 13
-AJAX Student Management]
-    C --> O[Practical 14
-Admin Dashboard and Audit Logs]
+    K --> O["✅ Build • Test • Learn"]
+    L --> O
+    N --> O
 
-    J --> P[PHP Forms and CSV]
-    K --> Q[PHP + MySQL]
-    L --> R[PHP Sessions and Authentication]
-    M --> S[PHP + MySQL
-Create, Read, Update, Delete]
-    N --> T[PHP API + Database Requests]
-    O --> U[Authentication + User Controls + Audit Logs]
-
-    P --> V[Run and test each practical]
-    Q --> V
-    R --> V
-    S --> V
-    T --> V
-    U --> V
+    classDef main fill:#172554,stroke:#60a5fa,color:#ffffff,stroke-width:2px;
+    classDef frontend fill:#164e63,stroke:#22d3ee,color:#ffffff;
+    classDef backend fill:#3b0764,stroke:#c084fc,color:#ffffff;
+    classDef outcome fill:#14532d,stroke:#4ade80,color:#ffffff;
+    class A main;
+    class B,D,E,F,K,L frontend;
+    class C,G,H,I,J,M,N backend;
+    class O outcome;
 ```
-How to read this chart: Practicals 4–6 focus on frontend development. Practicals 7–14 introduce server-side PHP, data storage, authentication and management features. Open each practical folder for its own entry point and configuration.
 
-Repository Structure
-WDF-Web-development-/
-├── PRACTICAL-4/
-│   ├── PAGES/
-│   ├── images/
-│   ├── script4.js
-│   └── style4.css
-├── PRACTICAL-5/
-│   ├── index.html
-│   ├── script.js
-│   └── style.css
-├── PRACTICAL-6/
-│   ├── index.html
-│   ├── events.json
-│   ├── js/
-│   └── style.css
-├── PRACTICAL_7/
-├── PRACTICAL_8/
-├── PRACTICAL_9/
-├── PRACTICAL_10/
-├── PRACTICAL_11/
-├── PRACTICAL_12/
-├── PRACTICAL_13/
-└── PRACTICAL_14/
-Some folders contain additional PHP, CSS, JavaScript, SQL, image, or sample-data files not shown in this overview.
-How to Run the Practicals
-1. Clone the repository
+---
+
+## 🧰 Technology Stack
+
+| Technology | Role in the Repository |
+|:--|:--|
+| **HTML5** | Page structure and forms |
+| **CSS3** | Visual design, layout and styling |
+| **JavaScript** | Client-side interactions and dynamic behaviour |
+| **JSON** | Structured data for applicable exercises |
+| **PHP** | Server-side processing and application logic |
+| **MySQL** | Database storage for applicable exercises |
+| **Git & GitHub** | Version control and repository hosting |
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+
+```bash
 git clone https://github.com/25it040/WDF-Web-development-.git
 cd WDF-Web-development-
-2. Run HTML/CSS/JavaScript practicals
-1. Open the required folder, such as PRACTICAL-4, PRACTICAL-5, or PRACTICAL-6.
-2. Open its index.html file in a browser, or use the Live Server extension in Visual Studio Code.
-3. Keep the folder structure intact so linked stylesheets, scripts, images and JSON files can be found.
-3. Run PHP/MySQL practicals
-1. Install a local PHP/MySQL environment such as XAMPP.
-2. Start Apache and MySQL.
-3. Copy the project folder into the web server's document root (commonly htdocs in XAMPP).
-4. Read the relevant practical's db.php file and configure the database host, database name, username and password for your local environment.
-5. Import that practical's included .sql file into phpMyAdmin/MySQL, when provided.
-6. Open the relevant PHP entry point through http://localhost/your-folder/.
-Important: Database names, table definitions and connection settings can differ between practicals. Use the SQL file and PHP configuration belonging to the specific practical. Do not publish real passwords, API keys or other secrets in a public repository.
-Learning Outcomes
-Through these practicals, the repository demonstrates practice with:
-- Structuring webpages using HTML and styling them with CSS.
-- Adding client-side behaviour with JavaScript.
-- Working with forms and validating or processing submitted data.
-- Reading structured JSON data and organizing JavaScript code into modules.
-- Connecting PHP applications to MySQL.
-- Implementing create, read, update and delete (CRUD) operations.
-- Managing login sessions and user roles.
-- Exchanging data through PHP endpoints and AJAX-style interactions.
-- Organizing project files and maintaining code with Git/GitHub.
-Academic Purpose
-This repository is maintained as part of Web Development coursework and practical learning. Each folder represents an individual practical exercise intended for learning, implementation, testing and academic demonstration.
-Author
-Dev Kaneriya
-Web Development Practicals
-For academic and learning use. Review each practical's code and configuration before running it in your local environment.
+```
+
+### 2. Run frontend practicals
+
+1. Open the required practical folder in Visual Studio Code.
+2. Open its `index.html` file in a browser, or use the **Live Server** extension.
+3. Keep the original folder structure intact so stylesheets, scripts, images, and JSON files resolve correctly.
+
+### 3. Run PHP and MySQL practicals
+
+1. Install a local PHP/MySQL environment such as **XAMPP**.
+2. Start **Apache** and **MySQL**.
+3. Place the required project folder in the web server's document root (commonly `htdocs` in XAMPP).
+4. Check that practical's PHP database configuration and set the correct local credentials.
+5. Import the corresponding `.sql` file into MySQL/phpMyAdmin if one is provided.
+6. Open the PHP entry point through `http://localhost/your-folder/`.
+
+> **Setup note:** Each practical may use different database names, tables, or configuration values. Follow the instructions and SQL files inside that specific folder. Never commit real passwords, API keys, or other secrets to a public repository.
+
+---
+
+## 🎯 Learning Outcomes
+
+By exploring these practicals, students can practise:
+
+- Creating structured webpages with HTML and CSS.
+- Adding interactive behaviour using JavaScript.
+- Working with forms and submitted data.
+- Organizing structured JSON data and JavaScript files.
+- Building server-side features with PHP.
+- Connecting web applications to MySQL.
+- Implementing CRUD workflows.
+- Understanding authentication, sessions, and role-based access.
+- Using backend endpoints for AJAX-style communication.
+- Managing and publishing source code with Git and GitHub.
+
+---
+
+## 📁 Repository Structure
+
+```text
+WDF-Web-development-/
+├── PRACTICAL-4/       # Gujarat Tourism Website
+├── PRACTICAL-5/       # Student Registration Form
+├── PRACTICAL-6/       # Event Explorer
+├── PRACTICAL_7/       # PHP Student Registration
+├── PRACTICAL_8/       # StudentHub Registration
+├── PRACTICAL_9/       # User Registration
+├── PRACTICAL_10/      # Login System
+├── PRACTICAL_11/      # Student Management
+├── PRACTICAL_12/      # Event Management
+├── PRACTICAL_13/      # AJAX Student Management
+└── PRACTICAL_14/      # Admin Dashboard & Audit Logs
+```
+
+*This is a simplified overview. Individual folders may contain additional PHP, CSS, JavaScript, SQL, image, or sample-data files.*
+
+---
+
+## 🎓 Academic Context
+
+This repository is maintained as part of **Web Development coursework**. The practicals are intended to support hands-on learning, implementation, testing, and academic demonstration.
+
+## 👨‍💻 Author
+
+<div align="center">
+
+### **Dev Kaneriya**
+
+*Web Development Practicals · Academic Project*
+
+</div>
+
+---
+
+<div align="center">
+
+**Built for learning. Organized for clarity. Presented with purpose.**
+
+</div>
